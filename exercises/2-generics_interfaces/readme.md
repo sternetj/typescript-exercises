@@ -48,3 +48,5 @@ const box = CoffeeShop.toGo(new Box(), [{ cost: 1, name: 'Coffee1' }]);
 box.howToCarry; // 'Two handed'
 box.contents; // [{ cost: 1, name: 'Coffee1' }]
 ```
+
+### Continue to `3-modules`
