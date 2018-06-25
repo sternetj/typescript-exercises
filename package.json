@@ -1,0 +1,34 @@
+{
+  "name": "typescript-exercises",
+  "version": "1.0.0",
+  "description": "A suite of programming exercises in TypeScript with Jest unit tests",
+  "main": "index.js",
+  "repository": "https://github.com/sternetj/typescript-exercises.git",
+  "author": "tsterne <tsterne@allegient.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "pretest": "yarn run lint",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0"
+  },
+  "dependencies": {
+    "@types/jest": "^23.1.1",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx|js)$"
+  }
+}
