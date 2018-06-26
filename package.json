@@ -9,7 +9,11 @@
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "yarn run lint",
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:module1": "jest ./1-classes/tests.spec.ts --watchAll",
+    "test:module2": "jest ./2-generics_interfaces/tests.spec.ts --watchAll",
+    "test:module3": "jest ./3-modules/tests.spec.ts --watchAll",
+    "test:module4": "jest ./4-enums/tests.spec.ts --watchAll"
   },
   "devDependencies": {
     "jest": "^23.1.0",
