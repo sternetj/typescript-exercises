@@ -17,7 +17,7 @@ describe("3-modules:", () => {
   it("should export a max function", () => {
     expect(tsModule.max).toBeDefined();
     expect(tsModule.max(1, 5)).toEqual(5);
-    expect(tsModule.add(6)).toEqual(6);
-    expect(tsModule.add(77, 5, 17, 103, -5)).toEqual(103);
+    expect(tsModule.max(6)).toEqual(6);
+    expect(tsModule.max(77, 5, 17, 103, -5)).toEqual(103);
   });
 });

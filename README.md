@@ -11,22 +11,22 @@ By default all tests run in watch mode so you the test will run and re-run as yo
 yarn test:module1
 ```
 
-Run the `2-generics_interfaces` tests:
+#### Run the `2-generics_interfaces` tests:
 ```
 yarn test:module2
 ```
 
-Run the `3-modules` tests:
+#### Run the `3-modules` tests:
 ```
 yarn test:module3
 ```
 
-Run the `4-enums` tests:
+#### Run the `4-enums` tests:
 ```
 yarn test:module4
 ```
 
-Run all tests:
+#### Run all tests:
 ```
 yarn test
 ```

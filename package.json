@@ -7,7 +7,6 @@
   "author": "tsterne <tsterne@allegient.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "yarn run lint",
     "test": "jest --watchAll",
     "test:module1": "jest ./1-classes/tests.spec.ts --watchAll",
@@ -16,13 +15,12 @@
     "test:module4": "jest ./4-enums/tests.spec.ts --watchAll"
   },
   "devDependencies": {
-    "jest": "^23.1.0",
-    "ts-jest": "^22.4.6",
-    "tslint": "^5.10.0"
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2"
   },
   "dependencies": {
-    "@types/jest": "^23.1.1",
-    "typescript": "^2.9.2"
+    "@types/jest": "^24.0.14",
+    "typescript": "^3.5.1"
   },
   "jest": {
     "moduleFileExtensions": [

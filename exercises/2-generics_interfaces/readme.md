@@ -3,13 +3,13 @@ Every `Coffee` should have:
 + A `cost` property of type `number`
 + A `name` property of type `string`
 
-Add the `Coffee` interface to the index of the `2-generics-interfaces` module.
+Export the `Coffee` interface from the index of the `2-generics-interfaces` module.
 
 # Create a class `CoffeeShop`
 
-+ Create a `CoffeeShop` class
-+ Add this class to the index of the `2-generics-interfaces` module.
-+ Create a static method `generateReceipt` that takes in a list of coffees to be purchased and returns the total and the list of the coffee names that were ordered.
++ Create a `CoffeeShop` class in a new file
++ Export this class from the index of the `2-generics-interfaces` module.
++ Create a static method `generateReceipt` on the `CoffeeShop` class that takes in a list of coffees to be purchased and returns the total and the list of the coffee names that were ordered.
 ```javascript
 // Input 
 CoffeeShop.generateReceipt([{ cost: 1, name: 'Coffee1' }, { cost: 2, name: 'Coffee2' }])
@@ -22,11 +22,10 @@ CoffeeShop.generateReceipt([{ cost: 1, name: 'Coffee1' }, { cost: 2, name: 'Coff
 Every `Package` should have:
   + A `contents` property that is list of coffees inside the package
   + An abstract `howToCarry` property of type `string` which is a description of how it can be carried
+<hr>
+
 ### Add this class to the index of the `2-generics-interfaces` module.
-
-
-
-
+<hr>
 Create three new instances of the `Package` class (add them to the index of the `2-generics-interfaces` module) with the following `howToCarry` values:
 ```javascript
 // Box
