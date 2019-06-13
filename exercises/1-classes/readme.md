@@ -4,7 +4,7 @@ Create a `Player` class with the following properties:
 + A `string` name
 + A `string` token
 
-# Expand the `abstract` class `Game`
+# Expand the `abstract` class `Game` (Game.ts)
 Add the following to the class:
 + A private property (`players`) that maintains a list of `Player`s
 + An abstract property (`maximumPlayers`) that sets determines the maximum number of players 
